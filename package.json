@@ -1,13 +1,13 @@
 {
-  "name": "vcrontab",
+  "name": "vue-element-cron",
   "version": "0.3.5",
   "description": "vue 的 cron 组件，支持解析/反解析 cron 表达式，生成最近五次的符合条件时间",
-  "author": "smallstone",
+  "author": "Liang-Dongxing",
   "license": "MIT",
   "main": "lib/vcrontab.umd.min.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:small-stone/vue-crontab.git"
+    "url": "git@github.com:Liang-Dongxing/vue-element-cron.git"
   },
   "homepage": "https://small-stone.github.io/vCrontab/dist/",
   "keywords": [
@@ -15,7 +15,8 @@
     "vue",
     "vuecron",
     "crontab",
-    "vue-crontab"
+    "vue-crontab",
+    "vue-element-cron"
   ],
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -23,12 +24,13 @@
     "lib": "vue-cli-service build --target lib --name vcrontab --dest lib src/index.js"
   },
   "dependencies": {
-    "element-ui": "^2.4.11",
-    "vue": "^2.5.17"
+    "element-ui": "^2.13.2",
+    "vue": "^2.6.12"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.0",
     "@vue/cli-service": "^3.0.0",
-    "vue-template-compiler": "^2.5.17"
+    "vue-loader": "^15.9.3",
+    "vue-template-compiler": "^2.6.12"
   }
 }
